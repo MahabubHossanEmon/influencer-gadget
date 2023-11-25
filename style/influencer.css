@@ -22,6 +22,7 @@
 }
 
 /* main part  */
+
 .top-part{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -53,7 +54,8 @@
 .items{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-  
+    margin-left: 100px;
+
     
 }
 .popular-title{
@@ -81,6 +83,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+   
 }
 .star p{
     color:  #5E6366;
@@ -94,4 +97,14 @@ font-weight: 700;
     font-size: 14px;
     font-weight: 700;
 
+}
+.popular-item{
+    padding: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    margin-right: 20px;
+    width: 80%;
+    
 }
