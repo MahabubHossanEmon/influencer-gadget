@@ -1,7 +1,4 @@
-*{
-    background: #FFF;
-    
-}
+
 /* header  */
 .nav-part{
     display: flex;
@@ -107,4 +104,28 @@ font-weight: 700;
     margin-right: 20px;
     width: 80%;
     
+}
+
+.more{
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+  margin-bottom: 100px;
+  
+
+}
+.bottom-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.bottom-part img{
+    margin-left: 100px;
+}
+
+.footer{
+    background: #18191F;
+}
+.footer footer{
+    color: #FFF;
+    text-align: center;
 }
